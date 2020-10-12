@@ -21,28 +21,14 @@ $contents = readHttpLikeInput();
 
 function parseTcpStringAsHttpRequest($string)
 {
-    $arr = explode("\n", $string);
+    $lines = explode("\n", $string);
+    $start_line = explode(" ", $lines[0]);
     return array(
-        "method" => getMethod($arr[0]),
-        "uri" => getURI($arr[0]),
-        "headers" => getHeaders($arr),
-        "body" => ltrim($arr[array_search("", $arr) + 1]),
+        "method" => $start_line[0],
+        "uri" => $start_line[1],
+        "headers" => getHeaders($lines),
+        "body" => ltrim($lines[array_search("", $lines) + 1]),
     );
-}
-
-function getMethod($string)
-{
-    $requestMethods = "/GET|HEAD|POST|PUT|DELETE|CONNECT|OPTIONS|TRACE|PATCH/";
-    preg_match($requestMethods, $string, $match);
-    return $match[0];
-}
-
-function getURI($string)
-{
-// https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ff650303(v=pandp.10)?redirectedfrom=MSDN
-    $URI_Syntax = '~\/[^\s()<>]+(?:\([\w\d]+\)|([^[:punct:]\s]|\/)*)~'; //https://mathiasbynens.be/demo/url-regex
-    preg_match($URI_Syntax, $string, $match);
-    return $match[0];
 }
 
 function getHeaders($array)
@@ -60,7 +46,6 @@ function getHeaders($array)
 }
 
 $http = parseTcpStringAsHttpRequest($contents);
-//$http = parseTcpStringAsHttpRequest($contents);
 
 echo(json_encode($http, JSON_PRETTY_PRINT));
 
@@ -89,9 +74,8 @@ function processHttpRequest($method, $uri, $headers, $body)
 
 function checkLoginAndPassword($body)
 {
-    $parsed_body = preg_split("~[&=]~", $body);
-    if (count($parsed_body) != 4) return false;
-    $login_and_password = "~" . $parsed_body[1] . ":" . $parsed_body[3] . "~";
+    parse_str($body, $parsed_body);
+    $login_and_password = "~" . $parsed_body['login'] . ":" . $parsed_body['password'] . "~";
     return preg_match($login_and_password, file_get_contents('passwords.txt'));
 }
 
