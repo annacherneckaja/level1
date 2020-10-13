@@ -67,4 +67,4 @@ function getHeaders($array)
 
 $http = parseTcpStringAsHttpRequest($contents);
 
-echo(json_encode($http, JSON_PRETTY_PRINT));
+echo json_encode($http, JSON_PRETTY_PRINT);

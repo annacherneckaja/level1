@@ -1,2 +1,2 @@
 <?php
-echo (2 + 1) . "<br>"; // output 3
+echo (2 + 1); // output 3

@@ -66,8 +66,6 @@ function getHeaders($array)
 
 $http = parseTcpStringAsHttpRequest($contents);
 
-echo(json_encode($http, JSON_PRETTY_PRINT));
-
 function processHttpRequest($method, $uri, $headers, $body)
 {
     if ($method == "GET") {
@@ -75,7 +73,7 @@ function processHttpRequest($method, $uri, $headers, $body)
             if (preg_match_all("~^/sum\?nums=(\d+(,(\d)+)*)$~",
                 $uri, $out, PREG_PATTERN_ORDER)) {
                 $status_code = 200;
-                $body_response =array_sum(explode(",", $out[1][0]));
+                $body_response = array_sum(explode(",", $out[1][0]));
             } else {
                 $status_code = 400;
             }
@@ -89,12 +87,11 @@ function processHttpRequest($method, $uri, $headers, $body)
 
 function getHeadersResponse($body_response)
 {
-    var_dump($body_response);
     return array(
-        "Server" => "Apache / 2.2.14 (Win32)",
-        "Content - Length" => $body_response != NULL? strlen(json_encode($body_response)): 0,
+        "Server" => "Apache/2.2.14 (Win32)",
         "Connection" => "Closed",
-        "Content - Type" => "text / html;charset = utf - 8",
+        "Content-Type" => "text/html; charset=utf-8",
+        "Content-Length" => $body_response != NULL ? strlen(json_encode($body_response)) : 0
     );
 }
 
@@ -106,7 +103,7 @@ function getStatusMessage($status_code)
         case 404:
             return "Not found";
         case 200:
-            return "Ok";
+            return "OK";
         default:
             return "";
     }
@@ -114,12 +111,12 @@ function getStatusMessage($status_code)
 
 function outputHttpResponse($status_code, $status_message, $headers, $body)
 {
-    echo "<br> HTTP/1.1 " . "$status_code" . " " . "$status_message<br>";
-    echo date('l jS \of F Y h:i:s A') . "<br>";
+    echo "HTTP/1.1 " . "$status_code" . " " . "$status_message\n";
+    echo date('l jS \of F Y h:i:s A') . "\n";
     foreach ($headers as $k => $v) {
-        echo "$k" . ": " . "$v<br>";
+        echo "$k" . ": " . "$v\n";
     }
-    echo $body != null ? "<br> $body" : "";
+    echo $body != null ? "$body" : "";
 }
 
 processHttpRequest($http["method"], $http["uri"], $http["headers"], $http["body"]);
