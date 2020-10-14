@@ -2,7 +2,7 @@
 
 function readHttpLikeInput()
 {
-    $f = fopen('stdin3', 'r');
+    $f = fopen('stdin3.txt', 'r');
     $store = "";
     $toread = 0;
     while ($line = fgets($f)) {
