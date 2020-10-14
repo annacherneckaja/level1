@@ -3,7 +3,7 @@
 // она нужна для того чтобы правильно считать входные данные
 function readHttpLikeInput()
 {
-    $f = fopen('stdin2', 'r');
+    $f = fopen('test2', 'r');
     $store = "";
     $toread = 0;
     while ($line = fgets($f)) {
