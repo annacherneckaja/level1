@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d20e9625-a820-470d-9b36-8c6655b214fc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ij4slypW3H2JWLWsBBBqNqw7BC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blocks" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\php.loc\level1\blocks" />
+      <recent name="C:\OpenServer\domains\php.loc\level1" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://php.loc/level1/level1_6.php" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://php.loc/level1/level1_6.php" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Host" />
+                <option name="value" value="http://php.loc" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://php.loc/level1/level1_6.php" />
+          <option name="urlPath" value="" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://php.loc/level1/level1_6.php" />
+          <option name="urlPath" value="" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="Accept: image/gif, image/jpeg, */*&#10;Accept-Language: en-us&#10;Accept-Encoding: gzip, deflate&#10;User-Agent: Mozilla/4.0&#10;Content-Length: 35&#10;&#10;bookId=12345&amp;author=Tan+Ah+Teck" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="HTTP Request.stdin3#1">
+    <configuration name="stdin3#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/stdin3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="stdin#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/stdin" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="level1_4.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/level1_4.php" scriptParameters=" ">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.stdin3#1" />
+        <item itemvalue="PHP Script.level1_4.php" />
+        <item itemvalue="HTTP Request.stdin#1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d20e9625-a820-470d-9b36-8c6655b214fc" name="Default Changelist" comment="" />
+      <created>1602407876281</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602407876281</updated>
+      <workItem from="1602407877314" duration="52546000" />
+      <workItem from="1602588420505" duration="4323000" />
+      <workItem from="1602603800073" duration="16804000" />
+      <workItem from="1602673953164" duration="16415000" />
+    </task>
+    <task id="LOCAL-00001" summary="level1.php">
+      <created>1602408748416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602408748416</updated>
+    </task>
+    <task id="LOCAL-00002" summary="level1.php">
+      <created>1602422956177</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602422956177</updated>
+    </task>
+    <task id="LOCAL-00003" summary="level1">
+      <created>1602436575434</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602436575434</updated>
+    </task>
+    <task id="LOCAL-00004" summary="level1">
+      <created>1602436593973</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602436593973</updated>
+    </task>
+    <task id="LOCAL-00005" summary="level1">
+      <created>1602485868572</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602485868572</updated>
+    </task>
+    <task id="LOCAL-00006" summary="level1">
+      <created>1602488071999</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602488071999</updated>
+    </task>
+    <task id="LOCAL-00007" summary="level1">
+      <created>1602613850048</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602613850048</updated>
+    </task>
+    <task id="LOCAL-00008" summary="level1">
+      <created>1602613992492</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602613992492</updated>
+    </task>
+    <task id="LOCAL-00009" summary="level1">
+      <created>1602668384146</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602668384146</updated>
+    </task>
+    <task id="LOCAL-00010" summary="level1">
+      <created>1602693722266</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602693722266</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="level1.php" />
+    <MESSAGE value="level1" />
+    <option name="LAST_COMMIT_MESSAGE" value="level1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="398" y="142" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602668412329">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="398" y="142" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1602668412329" />
+    <state x="526" y="115" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#function0" timestamp="1602428745728">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="526" y="115" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#function0/0.0.1280.680@0.0.1280.680" timestamp="1602428745728" />
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1602693721638">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1602693721638" />
+    <state x="520" y="238" key="Github.ShareDialog" timestamp="1602485911812">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="520" y="238" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1602485911812" />
+    <state width="1237" height="199" key="GridCell.Tab.0.bottom" timestamp="1602668430283">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="199" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602668430283" />
+    <state width="1237" height="199" key="GridCell.Tab.0.center" timestamp="1602668430283">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="199" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602668430283" />
+    <state width="1237" height="199" key="GridCell.Tab.0.left" timestamp="1602668430283">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="199" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602668430283" />
+    <state width="1237" height="199" key="GridCell.Tab.0.right" timestamp="1602668430283">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="199" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602668430283" />
+    <state x="477" y="264" key="NewPhpFileDialog" timestamp="1602693447331">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1602693447331" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1602660318685">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1602660318685" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1602436563547">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602436563547" />
+    <state x="458" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602693757416">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="458" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1602693757416" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1602613982410">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1602613982410" />
+  </component>
+</project>

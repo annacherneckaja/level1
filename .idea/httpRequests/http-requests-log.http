@@ -1,0 +1,106 @@
+GET http://php.loc/level1/level1_6.php
+
+###
+
+GET http://php.loc/level1/level1_6.php
+Host: http://php.loc
+
+<> 2020-10-14T122813.400.html
+
+###
+
+GET http://php.loc/level1/level1_6.php
+Host: http://php.loc
+
+<> 2020-10-14T122728.400.html
+
+###
+
+POST http://php.loc/level1/level1_6.php
+
+{}
+
+<> 2020-10-14T121900.200.html
+
+###
+
+POST http://php.loc/level1/level1_6.php
+
+{}
+
+<> 2020-10-14T121826.200.html
+
+###
+
+GET http://php.loc/level1/level1_6.php
+
+Accept: image/gif, image/jpeg, */*
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0
+Content-Length: 35
+
+bookId=12345&author=Tan+Ah+Teck
+
+<> 2020-10-14T121637.200.html
+
+###
+
+GET http://OpenServer\domains\php.loc\level1\level1_6.php
+
+Accept: image/gif, image/jpeg, */*
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0
+Content-Length: 35
+
+bookId=12345&author=Tan+Ah+Teck
+
+###
+
+GET http://OpenServer\domains\php.loc\level1\level1_6.php
+
+Accept: image/gif, image/jpeg, */*
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0
+Content-Length: 35
+
+bookId=12345&author=Tan+Ah+Teck
+
+###
+
+GET http://OpenServer\domains\php.loc\level1\level1_6.php
+
+Accept: image/gif, image/jpeg, */*
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0
+Content-Length: 35
+
+bookId=12345&author=Tan+Ah+Teck
+
+###
+
+GET http://\OpenServer\domains\php.loc\level1\level1_6.php
+
+Accept: image/gif, image/jpeg, */*
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0
+Content-Length: 35
+
+bookId=12345&author=Tan+Ah+Teck
+
+###
+
+POST http://api/checkLoginAndPassword
+Accept: */*
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/4.0
+Content-Length: 35
+
+login=student&password=12345
+
+###
+
