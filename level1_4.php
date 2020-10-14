@@ -53,7 +53,7 @@ function processHttpRequest($method, $uri, $headers, $body)
     if ($method == "POST") {
         if (preg_match("~^/api/checkLoginAndPassword$~", $uri) &&
             $headers["Content-Type"] == "application/x-www-form-urlencoded") {
-            if (!file_exists('passwords.txt')) {
+            if (!file_exists('assets/passwords.txt')) {
                 $status_code = 500;
             } elseif (checkLoginAndPassword($body)) {
                 $status_code = 200;
@@ -74,7 +74,7 @@ function checkLoginAndPassword($body)
 {
     parse_str($body, $parsed_body);
     $login_and_password = "~" . $parsed_body['login'] . ":" . $parsed_body['password'] . "~";
-    return preg_match($login_and_password, file_get_contents('passwords.txt'));
+    return preg_match($login_and_password, file_get_contents('assets/passwords.txt'));
 }
 
 function getHeadersResponse($body_response)

@@ -54,7 +54,7 @@ if ($_GET) {
 if ($_POST) {
     $login_and_password = "~" . $_POST['login'] . ":" . $_POST['password'] . "~";
 
-    if (!preg_match($login_and_password, file_get_contents('passwords.txt'))) {
+    if (!preg_match($login_and_password, file_get_contents('assets/passwords.txt'))) {
         $status_code = 400;
         $body = 'INCORRECT LOGIN OR PASSWORD';
     } else {
